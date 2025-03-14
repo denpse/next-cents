@@ -3,6 +3,7 @@ import icon1 from "@/assets/images/Social Icons.png";
 import icon2 from "@/assets/images/Social Icons copy 2.png";
 import icon3 from "@/assets/images/Social Icons copy 3.png";
 import icon4 from "@/assets/images/Social Icons copy.png";
+import { Input } from "@/components/ui/input";
 const Footer = () => {
   const socialLogoData = [
     {
@@ -64,7 +65,9 @@ const Footer = () => {
           </div>
           <div className="text-white ">
             <h1 className=" mb-3 font-semibold">Stay up to date</h1>
-            <div></div>
+            <div>
+              <Input type="email" placeholder="Your email address" />
+            </div>
           </div>
         </div>
       </div>
