@@ -1,4 +1,4 @@
-import thumnail from "@/assets/images/Frame35.png";
+import thumnail from "../../public/assets/images/Frame35.png";
 import { Button } from "@/components/ui/button";
 const LearnMore = () => {
   return (

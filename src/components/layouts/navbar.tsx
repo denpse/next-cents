@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import logo from "@/assets/images/Logo.png";
+import logo from "../../../public/assets/images/Logo.png";
 import { Button } from "../ui/button";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";

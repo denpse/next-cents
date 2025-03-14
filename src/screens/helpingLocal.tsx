@@ -1,7 +1,7 @@
-import icon1 from "@/assets/images/Icon3.png";
-import icon2 from "@/assets/images/Icon7.png";
-import icon3 from "@/assets/images/Icon6.png";
-import icon4 from "@/assets/images/Icon4.png";
+import icon1 from "../../public/assets/images/Icon3.png";
+import icon2 from "../../public/assets/images/Icon7.png";
+import icon3 from "../../public/assets/images/Icon6.png";
+import icon4 from "../../public/assets/images/Icon4.png";
 
 const HelpLocal = () => {
   const localData = [
