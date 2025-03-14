@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         <div className="md:flex justify-center hidden ">
           <img
-            src="/assets/images/illustratio.png"
+            src="/assets/images/Illustratio.png"
             alt="illustration"
             className="w-auto"
           />
