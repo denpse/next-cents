@@ -1,4 +1,4 @@
-import thumnail from "../../public/assets/images/pana.png";
+import thumnail from "/assets/images/pana.png";
 import { Button } from "@/components/ui/button";
 const HowDesign = () => {
   return (

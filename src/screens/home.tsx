@@ -1,4 +1,3 @@
-import Illustration from "../../public/assets/images/illustratio.png";
 import { Button } from "@/components/ui/button";
 
 const Home = () => {
@@ -20,7 +19,11 @@ const Home = () => {
           </div>
         </div>
         <div className="md:flex justify-center hidden ">
-          <img src={Illustration} alt="illustration" className="w-auto" />
+          <img
+            src="/assets/images/illustratio.png"
+            alt="illustration"
+            className="w-auto"
+          />
         </div>
       </div>
     </div>

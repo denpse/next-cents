@@ -1,4 +1,4 @@
-import thumnail from "../../public/assets/images/image9.png";
+import thumnail from "/assets/images/image9.png";
 import { Button } from "@/components/ui/button";
 
 const Testla = () => {

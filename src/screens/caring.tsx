@@ -1,6 +1,6 @@
-import image1 from "../../public/assets/images/image18.png";
-import image2 from "../../public/assets/images/image19.png";
-import image3 from "../../public/assets/images/image20.png";
+import image1 from "/assets/images/image18.png";
+import image2 from "/assets/images/image19.png";
+import image3 from "/assets/images/image20.png";
 const Caring = () => {
   const cardData = [
     {

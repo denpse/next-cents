@@ -1,14 +1,14 @@
 // import clientData from "@/assets/data/client.json";
-import logo1 from "../../public/assets/images/Logo-8.png";
-import logo2 from "../../public/assets/images/Logo9.png";
-import logo3 from "../../public/assets/images/Logo6.png";
-import logo4 from "../../public/assets/images/Logo11.png";
-import logo5 from "../../public/assets/images/Logo12.png";
-import logo6 from "../../public/assets/images/Logo13.png";
-import logo7 from "../../public/assets/images/Logo14.png";
-import logoCom1 from "../../public/assets/images/Icon.png";
-import logoCom2 from "../../public/assets/images/Icon1.png";
-import logoCom3 from "../../public/assets/images/Icon5.png";
+import logo1 from "/assets/images/Logo-8.png";
+import logo2 from "/assets/images/Logo9.png";
+import logo3 from "/assets/images/Logo6.png";
+import logo4 from "/assets/images/Logo11.png";
+import logo5 from "/assets/images/Logo12.png";
+import logo6 from "/assets/images/Logo13.png";
+import logo7 from "/assets/images/Logo14.png";
+import logoCom1 from "/assets/images/Icon.png";
+import logoCom2 from "/assets/images/Icon1.png";
+import logoCom3 from "/assets/images/Icon5.png";
 
 type clientType = {
   id: number;

@@ -1,8 +1,8 @@
-import logo from "../../../public/assets/images/logo-white.png";
-import icon1 from "../../../public/assets/images/SocialIcons.png";
-import icon2 from "../../../public/assets/images/SocialIconscopy2.png";
-import icon3 from "../../../public/assets/images/SocialIconscopy3.png";
-import icon4 from "../../../public/assets/images/SocialIconscopy.png";
+import logo from "/assets/images/logo-white.png";
+import icon1 from "/assets/images/SocialIcons.png";
+import icon2 from "/assets/images/SocialIconscopy2.png";
+import icon3 from "/assets/images/SocialIconscopy3.png";
+import icon4 from "/assets/images/SocialIconscopy.png";
 import { Input } from "../ui/input";
 
 const Footer = () => {
