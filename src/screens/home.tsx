@@ -1,4 +1,4 @@
-import Illustration from "@/assets/images/illustration.png";
+import Illustration from "@/assets/images/illustratio.png";
 import { Button } from "@/components/ui/button";
 
 const Home = () => {
