@@ -1,8 +1,8 @@
 import logo from "@/assets/images/logo-white.png";
-import icon1 from "@/assets/images/Social Icons.png";
-import icon2 from "@/assets/images/Social Icons copy 2.png";
-import icon3 from "@/assets/images/Social Icons copy 3.png";
-import icon4 from "@/assets/images/Social Icons copy.png";
+import icon1 from "@/assets/images/SocialIcons.png";
+import icon2 from "@/assets/images/SocialIconscopy2.png";
+import icon3 from "@/assets/images/SocialIconscopy3.png";
+import icon4 from "@/assets/images/SocialIconscopy.png";
 import { Input } from "@/components/ui/input";
 const Footer = () => {
   const socialLogoData = [
