@@ -85,10 +85,10 @@ const Client = () => {
           We have been working with some Fortune 500+ clients
         </p>
       </div>
-      <div className="grid grid-cols-7 mt-16 ">
+      <div className="grid md:grid-cols-7 gap-7 grid-cols-2 mt-16 ">
         {clientData.map((res: clientType, i: number) => {
           return (
-            <div key={i}>
+            <div className="flex justify-center" key={i}>
               <img className="" src={res.logo} />
             </div>
           );
