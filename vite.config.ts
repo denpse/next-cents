@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://github.com/denpse/next-cents.git",
+  base: "/next-cents",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
