@@ -5,8 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/next-cents",
   plugins: [react(), tailwindcss()],
+  base: "/next-cents",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
