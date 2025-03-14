@@ -102,7 +102,7 @@ const Client = () => {
           </h1>
           <p className="text-[#717171]">Who is Nextcent suitable for?</p>
         </div>
-        <div className="grid grid-cols-3 mt-16 gap-20">
+        <div className="grid md:grid-cols-3 grid-cols-1 mt-16 gap-20">
           {communityData.map((res: communityType, i: number) => {
             return (
               <div className="flex justify-center" key={i}>

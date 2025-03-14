@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 const HowDesign = () => {
   return (
     <div className="mt-12 ">
-      <div className="flex space-x-12 items-center">
-        <div>
+      <div className="md:flex space-x-12 items-center">
+        <div className="md:flex justify-center mx-auto">
           <img className="w-[140rem]" src={thumnail} />
         </div>
         <div>
           <div>
-            <h1 className="text-4xl mb-3 text-[#4D4D4D] leading-12">
+            <h1 className="text-4xl md:leading-12 leading-10 mb-3 text-[#4D4D4D] mt-12 md:mt-0">
               How to design your site footer like we did
             </h1>
             <p className="text-[#717171]">

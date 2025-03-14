@@ -24,8 +24,8 @@ const Footer = () => {
   ];
   return (
     <div className="mt-16 bg-[#263238]">
-      <div className="lg:w-[70%] mx-auto py-16">
-        <div className="grid grid-cols-4 gap-8">
+      <div className="max-w-[90%] lg:max-w-[70%] mx-auto py-16">
+        <div className="grid md:grid-cols-4 grid-cols-1 gap-8">
           <div>
             <img src={logo} />
             <div className="mt-9 text-white text-xs font-light leading-6">

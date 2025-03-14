@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 const Testla = () => {
   return (
     <div className="mt-12 bg-[#F5F7FA]">
-      <div className=" lg:w-[60%] mx-auto py-16">
-        <div className="flex space-x-12 items-center">
-          <div>
+      <div className=" max-w-[90%] lg:max-w-[70%] mx-auto py-16">
+        <div className="md:flex space-x-12 items-center">
+          <div className="flex md:block mx-auto">
             <img className="w-[140rem]" src={thumnail} />
           </div>
           <div>

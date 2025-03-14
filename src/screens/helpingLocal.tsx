@@ -32,8 +32,8 @@ const HelpLocal = () => {
   ];
   return (
     <div className="mt-12 bg-[#F5F7FA] ">
-      <div className="sm:w-[80%] lg:w-[60%] mx-auto py-16">
-        <div className="grid grid-cols-2">
+      <div className="max-w-[90%] lg:max-w-[70%] mx-auto py-16">
+        <div className="grid md:grid-cols-2 grid-cols-1">
           <div className="">
             <h1 className="text-4xl font-semibold text-[#4D4D4D]">
               Helping a local
@@ -45,7 +45,7 @@ const HelpLocal = () => {
               we reached here with our hard work and dedication
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 md:mt-0 mt-12">
             {localData.map((res, i) => {
               return (
                 <div key={i} className="flex space-x-3">

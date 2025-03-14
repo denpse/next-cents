@@ -12,17 +12,17 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="md:w-[60%] mx-auto">
+      <div className="max-w-[90%] lg:max-w-[70%] mx-auto">
         <Home />
         <Client />
         <LearnMore />
       </div>
       <HelpingLocal />
-      <div className="md:w-[60%] mx-auto">
+      <div className="max-w-[90%] lg:max-w-[70%] mx-auto">
         <HowDesign />
       </div>
       <Testla />
-      <div className="md:w-[60%] mx-auto">
+      <div className="max-w-[90%] lg:max-w-[70%] mx-auto">
         <Caring />
       </div>
       <Footer />

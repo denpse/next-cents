@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 const LearnMore = () => {
   return (
     <div className="mt-12 ">
-      <div className="flex space-x-12 items-center">
-        <div>
+      <div className="md:flex space-x-12 items-center ">
+        <div className="flex justify-center md:block mx-auto">
           <img className="w-[100rem]" src={thumnail} />
         </div>
         <div>

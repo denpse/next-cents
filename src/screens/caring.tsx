@@ -26,7 +26,7 @@ const Caring = () => {
         <h1 className="text-4xl mb-3 text-[#4D4D4D]">
           Caring is the new marketing
         </h1>
-        <p className="text-[#717171] mx-auto w-[60%]">
+        <p className="text-[#717171] mx-auto md:w-[60%] w-[90%]">
           The Nexcent blog is the best place to read about the latest membership
           insights, trends and more. See who's joining the community, read about
           how our community are increasing their membership income and lot's
@@ -34,7 +34,7 @@ const Caring = () => {
         </p>
       </div>
       <div className="mt-12">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
           {cardData.map((res, i) => {
             return (
               <div key={i} className=" rounded-lg overflow-hidden">
